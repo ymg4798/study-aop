@@ -13,7 +13,6 @@ public class CallServiceV1 {
 
     @Autowired
     public void setCallServiceV1(CallServiceV1 callServiceV1) {
-        log.info("callServiceV1 setter={}", callServiceV1.getClass());
         this.callServiceV1 = callServiceV1;
     }
 
